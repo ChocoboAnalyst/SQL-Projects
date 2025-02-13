@@ -29,7 +29,7 @@ VALUES
 -- © Copyright 2025 Break Into Tech  --
 
 
-SQL Analysis Questions and Query. Note that most of these questions (8 following the first 2) were derived from personal curiosity beyond what was expected of us to answer! 
+SQL Analysis Questions and Query
 
 SELECT item_name, --Can you order items by price?
 price
@@ -79,4 +79,35 @@ FROM superstore
 GROUP BY category 
 ORDER BY AVG(average_rating) DESC
 ;
-
+-- What is the total sum of stock quantity? 
+SELECT SUM(stock_quantity)
+FROM superstore
+;
+-- What is the total stock quantity of electronics?
+SELECT SUM(stock_quantity), category
+FROM superstore 
+WHERE category='Electronics'
+;
+--What is the TOTAL stock in EACH cateogry?
+SELECT SUM (stock_quantity), category
+FROM superstore
+GROUP BY category 
+;
+--Select the entire data set
+SELECT *
+FROM superstore
+;
+--Select only 5 dataset entries
+SELECT *
+FROM superstore
+LIMIT 5
+;
+--Select only the top 3 kitchen supplies by inventory quantity, highest to lowest
+SELECT stock_quantity, 
+item_name, 
+category
+FROM superstore
+WHERE 'Kitchen Supplies'=category
+ORDER BY stock_quantity DESC
+LIMIT 3
+;
