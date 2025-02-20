@@ -1,3 +1,5 @@
+SCHEMA QUERY
+
 CREATE TABLE superstore (
     item_id INTEGER PRIMARY KEY,
     item_name TEXT,
@@ -29,7 +31,7 @@ VALUES
 -- © Copyright 2025 Break Into Tech  --
 
 
-SQL Analysis Questions and Query
+SQL QUERY
 
 SELECT item_name, --Can you order items by price?
 price
