@@ -15,7 +15,7 @@ Real-World Case Studies – Applying analytical skills to datasets from various 
 
 📂 Featured Projects (as of 02/21/2025)
 
-📌 Project 1: SQL-Based SUPERMARKET Business Analysis
+📌 Project 1: SQL-Based SUPERMARKET Business Analysis: https://github.com/ChocoboAnalyst/SQL-Projects/blob/main/Project%20No.1%3A%20Superstore%20Analysis
 
 📌 Project 2: SQL-BASED FORTUNE 500 Business Analysis
 
