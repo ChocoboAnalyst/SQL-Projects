@@ -11,7 +11,7 @@ Beyond the data processing, I understand that a data analyst requires more than 
  SQL Queries & Database Analysis – Writing efficient queries, performing deep data exploration, and solving real-world business problems.
  Data Visualization with Tableau – Creating interactive dashboards that bring data to life.
  Excel for Data Analytics – Leveraging pivot tables, Power Query, and advanced formulas to clean and analyze data.
-Real-World Case Studies – Applying analytical skills to datasets from various industries like finance, retail, healthcare, and tech.
+ Real-World Case Studies – Applying analytical skills to datasets from various industries like finance, retail, healthcare, tech, and much more!
 
 📂 Featured Projects (as of 02/21/2025)
 
@@ -23,10 +23,15 @@ Real-World Case Studies – Applying analytical skills to datasets from various 
 📖 My Learning Path
 
 🔹 SQL: SQL basics, Advanced SQL basics, Relational Queries in SQL, SQlite Studio, CTEs, Window Functions, RDBMS, and more! 
+
 🔹 Tableau: Creating compelling data visualizations and dashboards.
+
 🔹 PowerBI: Currently learning to add to my repetoire. 
+
 🔹 Excel: Advanced formulas, Power Query, and data modeling.
+
 🔹 Data Storytelling: Turning raw data into meaningful insights.
+
 🔹 CHATGPT4: Integrating AI to further optimize data.
 
 💡 Let’s Connect!
