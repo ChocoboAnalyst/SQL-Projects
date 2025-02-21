@@ -2,7 +2,7 @@
 
 Welcome to My Data-Driven Journey! 
 
-Hi there! 👋 I’m Alejandro Soto, an aspiring Junior Data Analyst passionate about uncovering insights from data. I’m on an exciting journey to master SQL, Tableau/POWERBI, and Excel while diving deep into databases to extract meaningful, data-driven insights. This GitHub serves as my portfolio, documenting my progress, projects, and the skills I’m building along the way!
+Hi there! 👋 I’m Alejandro Soto, an aspiring Junior Data Analyst passionate about uncovering insights from data. I’m on an exciting journey to master SQL, Tableau/PowerBI, and Excel while diving deep into databases to extract meaningful, data-driven insights. This GitHub serves as my portfolio, documenting my progress, projects, and the skills I’m building along the way!
 
 Beyond the data processing, I understand that a data analyst requires more than just a technical skillset. You need to be a strong communicator, leader, and listener. Analysts may be in a position of consulting with stakeholders, clients, and leaders! You need to sensible in communicating your points, be firm with data extraction expectations, and have a functional understanding of goalpost. Communication and collaboration are key elements, and without them, we fail!
 
