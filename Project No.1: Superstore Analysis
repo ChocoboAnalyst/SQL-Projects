@@ -1,3 +1,13 @@
+The "so what?" and interesting findings:
+
+	1)	The Premium Coffee Maker (4.9 stars) and Memory Foam Mattress (4.8 stars) have the highest ratings, indicating strong customer satisfaction.
+	2)	The Smart Home Security Camera (4.1 stars) and Wireless Bluetooth Speaker (4.2 stars) have the lowest ratings among electronics, which might indicate quality or performance concerns.
+	3)	The business could focus marketing on high-rated products (Coffee Maker, Mattress) while improving lower-rated ones to maintain customer trust.
+	4)	Consider reducing stock levels of slow-moving items if they are not selling fast. I would like to know data for monthly product turnover and see if further tuning can be done here. 
+	5)	Boost advertising for top-rated items to leverage customer satisfaction for increased sales. 
+	6)	Piggybacking on the second point, reevaluating lower-rated products to see if quality improvements or better pricing can improve sales may be a point of focus. 4.1 stars may not be a bad performance indicator on the surface, but based on weighted averages, 
+        there is a clear significant difference between 4.1 and say, 4.8. A 4.1 rating may suggest considerable flaws in the product. An analysis of customer comments or reasons for return may reveal interesting findings.
+        
 SCHEMA QUERY
 
 CREATE TABLE superstore (
@@ -48,7 +58,7 @@ ORDER BY AVG(price) DESC
 ;
 SELECT AVG(price), 'Kitchen Supplies' --Find the Average price for Kitchen supplies category (only).
 FROM superstore
-WHERE 'Kitchen Supplies'=category
+WHERE category='Kitchen Supplies'
 ;
 SELECT MAX(price), 'Electronics' --What is the Max price in electronics category (only)?
 FROM superstore
