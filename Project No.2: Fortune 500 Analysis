@@ -1,3 +1,18 @@
+The "so what?" and interesting findings:
+
+	+ Companies with revenues of $350B+ are classified as high-level businesses, representing industry giants like Apple, Amazon, and JPMorgan.
+	 •	Mid-level companies ($250B-$349B) also have significant market influence.
+	 •	Low-level companies ($100B-$249B) are still major players but may face more financial constraints.
+	 •	So what?: High-revenue companies can afford better employee benefits, more R&D, and aggressive market expansion, while mid and especially low-level firms may need strategic investments to scale accordingly.
+    
+   + Technology companies provide the highest average PTO (≥20 days), indicating strong work-life balance.
+	•	Other industries like Healthcare and Finance may offer less PTO, which may be a causal factor for high burnout and stress often present in these fields!
+	•	So what?: Competitive PTO policies help attract and retain top talent, particularly in knowledge-based industries where work-life balance is crucial; 
+
+   + Energy, Retail, and Finance industries have the highest number of companies not offering healthcare benefits. 
+    •   So what?: Employees in these industries may face higher personal healthcare costs, have lower productivity, potentially have lower job satisfaction and higher turnover, and may have/spread negative sentiments towards employer branding.
+
+
 SCHEMA SQL
 
 #This analysis utilized the following Fortune 500 dataset:
