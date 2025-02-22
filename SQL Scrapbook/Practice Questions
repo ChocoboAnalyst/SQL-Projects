@@ -1,0 +1,25 @@
+Go to the pharma company database using this https://www.db-fiddle.com/f/dm9BnpSRSkY9EoQ1GYrxR9/43 and answer the following question:
+
+Which medications has Dr. Garcia prescribed?  Your results should include Dr. Garcia's name in one column and the different medication names 
+
+they've prescribed in the other. 
+
+Practice Questions for personal reference
+
+SELECT DISTINCT med.medication_name, scripts.doctor_name
+FROM medication med
+INNER JOIN prescriptions scripts
+ON med.person_ID = scripts.person_ID
+WHERE scripts.doctor_name = 'Dr. Garcia'
+;
+
+Go to the pharma company database and answer the following question:
+
+Zonkify is no longer on the market. When were all the Zonkify prescriptions last filled? 
+
+SELECT scripts.date_filled
+FROM medication med
+INNER JOIN prescriptions scripts
+ON med.person_ID = scripts.person_ID
+WHERE med.medication_name = 'Zonkify'
+ORDER BY scripts.date_filled DESC;
